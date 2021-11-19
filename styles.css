@@ -1,6 +1,7 @@
 .container-fluid {
     margin: 0px;
     padding: 0px;
+    justify-content: center;
 }
 
 .bg-image1 {
@@ -16,10 +17,22 @@
     color: white;
     text-align: center;
     justify-content: center;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+.d-logo {
+    position: absolute;
+    align-items: center;
+    top: 40%;
+    left: 50%;
+    bottom: 50%;
+}
 
+.mouse-logo {
+    position: absolute;
+    align-items: center;
     
+}
+ 
