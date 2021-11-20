@@ -72,3 +72,12 @@ img .bg-computer {
     left: 10%;
     color: white;
 }
+
+.text4 {
+    text-align: center;
+}
+
+.text5 {
+    text-align: center;
+    justify-content: center;
+}
