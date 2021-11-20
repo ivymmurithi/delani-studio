@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
     justify-content: center;
+    align-items: center;
+    background-size: cover;
 }
 
 .bg-image1 {
@@ -46,13 +48,27 @@
     bottom: 20%;
 }
 
+.about-title {
+    margin-top: 3%;
+    font-weight: bold;
+}
+
 .text2 {
     font-size: 1.2rem;
     line-height: 4rem;
 }
 
-.about-title {
-    margin-top: 3%;
-    font-weight: bold;
+img .bg-computer {
+    position: relative;
 }
- 
+
+.services {
+    position: absolute;
+    font-size: 1.3rem;
+    line-height: 4rem;
+    margin: 6%;
+    align-items: center;
+    justify-content: center;
+    left: 10%;
+    color: white;
+}
