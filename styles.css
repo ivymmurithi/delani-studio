@@ -59,7 +59,6 @@
 }
 
 .text2 {
-  /* font-size: 1.2rem; */
   line-height: 4rem;
 }
 
@@ -69,7 +68,6 @@ img .bg-computer {
 
 .services {
   position: absolute;
-  /* font-size: 1.3rem; */
   line-height: 4rem;
   margin: 6%;
   align-items: center;
@@ -99,6 +97,7 @@ img .contact-bg {
   position: relative;
   background-position: center;
   background-size: cover;
+  
 }
 
 .fm {
@@ -154,6 +153,7 @@ img .contact-bg {
   width: 80%;
   justify-content: space-between;
   display: flex;
-  margin-left: 10%;
+  margin-left: 13%;
 }
+
 
