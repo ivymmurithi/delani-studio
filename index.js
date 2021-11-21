@@ -22,12 +22,11 @@ $(document).ready(function(){
 
 
 $('#form').submit(function(event) {
-    event.preventDefault();
     let fname = $('#fname').val();
     let email = $('#email').val();
     let message = $('#message').val();
     if (!fname || !email || !message) {
     alert("Fill in the form"); 
+    event.preventDefault();
     } 
-    $('#form').submit();
 });
