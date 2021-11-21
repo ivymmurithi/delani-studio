@@ -100,3 +100,12 @@ img .contact-bg {
     margin: 4%;
 }
 
+.socialmedia-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 3px;
+    width: 50%;
+    margin-left: 25%;
+}
+
