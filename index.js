@@ -14,19 +14,19 @@ $(document).ready(function(){
 
     $('#projectmngt').mouseenter(
         function() {
-            $('projectmngt').text('Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.')
+            $('#projectmngt').text('Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.')
         }
     )
 
 });
 
 
-$('#submit').submit(function(event) {
+$('#form').submit(function(event) {
     event.preventDefault();
     let fname = $('#fname').val();
     let email = $('#email').val();
     let message = $('#message').val();
-    if (fname === "Yo") {
+    if (!fname || !email || !message) {
     alert("Fill in the form");
     }
 });
