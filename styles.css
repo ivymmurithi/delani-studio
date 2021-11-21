@@ -1,5 +1,5 @@
 * {
-    font-size: 1vw;
+  font-size: 1vw;
 }
 
 .container-fluid {
@@ -84,11 +84,10 @@ img .bg-computer {
 }
 
 .row {
-    display: flex;
-    justify-content: space-evenly;
-    width: 130%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 130%;
 }
-
 
 .text5 {
   text-align: center;
@@ -98,6 +97,8 @@ img .bg-computer {
 
 img .contact-bg {
   position: relative;
+  background-position: center;
+  background-size: cover;
 }
 
 .fm {
@@ -106,7 +107,6 @@ img .contact-bg {
   align-items: center;
   justify-content: center;
   display: flex;
-  background-color: rgba(0, 0, 0, 0);
   color: white;
   margin: 5%;
 }
@@ -116,18 +116,17 @@ img .contact-bg {
 }
 
 .contact-title {
-    position: absolute;
-    color: white;
-    text-align: center;
-    justify-content: center;
-    margin-left: 40%;
-    padding: 2%;
+  position: absolute;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin-left: 40%;
+  padding: 2%;
 }
 
 .form-control {
-background: transparent;
+  background: transparent;
 }
-
 
 .socialmedia-icons {
   display: flex;
@@ -145,12 +144,12 @@ background: transparent;
 }
 
 .all-portfolio {
-    margin-left: 6%;
-    width: 70%;
-    height: 70%;
+  margin-left: 6%;
+  width: 70%;
+  height: 70%;
+  justify-content: space-evenly;
 }
 
 .what-we-do {
-    margin: 4%;
+  margin-left: 4%;
 }
-
