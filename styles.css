@@ -1,3 +1,7 @@
+* {
+    font-size: 1vw;
+}
+
 .container-fluid {
   margin: 0px;
   padding: 0px;
@@ -55,7 +59,7 @@
 }
 
 .text2 {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   line-height: 4rem;
 }
 
@@ -65,7 +69,7 @@ img .bg-computer {
 
 .services {
   position: absolute;
-  font-size: 1.3rem;
+  /* font-size: 1.3rem; */
   line-height: 4rem;
   margin: 6%;
   align-items: center;
@@ -139,3 +143,14 @@ background: transparent;
   justify-content: center;
   margin: 2%;
 }
+
+.all-portfolio {
+    margin-left: 6%;
+    width: 70%;
+    height: 70%;
+}
+
+.what-we-do {
+    margin: 4%;
+}
+
