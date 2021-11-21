@@ -90,6 +90,13 @@ img .contact-bg {
 
 .fm {
   position: absolute;
+  width: 40%;
   align-items: center;
   justify-content: center;
+  display: flex;
 }
+
+.contact-fm {
+    margin: 4%;
+}
+
