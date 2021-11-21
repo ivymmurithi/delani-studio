@@ -76,7 +76,15 @@ img .bg-computer {
 
 .text4 {
   text-align: center;
+  margin: 4%;
 }
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 130%;
+}
+
 
 .text5 {
   text-align: center;
@@ -115,6 +123,7 @@ img .contact-bg {
 .form-control {
 background: transparent;
 }
+
 
 .socialmedia-icons {
   display: flex;
