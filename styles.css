@@ -146,10 +146,14 @@ img .contact-bg {
 .all-portfolio {
   margin-left: 6%;
   width: 70%;
-  height: 70%;
   justify-content: space-evenly;
 }
 
 .what-we-do {
-  margin-left: 4%;
+  margin: 4%;
+  width: 90%;
+  justify-content: space-between;
+  display: flex;
+  margin-left: 15%;
 }
+
